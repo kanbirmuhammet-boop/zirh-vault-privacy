@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Şifre Kasası - Gizlilik Politikası</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0c1118;
+        --surface: #141b25;
+        --text: #eef2f7;
+        --muted: #aeb8c7;
+        --line: #2a3444;
+        --accent: #8fd0ff;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: radial-gradient(circle at top, #192434 0%, var(--bg) 55%);
+        color: var(--text);
+        font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.6;
+      }
+      main {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 24px 16px 40px;
+      }
+      .card {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 18px;
+        margin-top: 14px;
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-size: 1.8rem;
+      }
+      h2 {
+        margin: 0 0 8px;
+        font-size: 1.15rem;
+      }
+      p, li {
+        margin: 0;
+        color: var(--text);
+      }
+      .muted {
+        color: var(--muted);
+      }
+      ul {
+        margin: 8px 0 0 20px;
+        padding: 0;
+      }
+      a {
+        color: var(--accent);
+      }
+      .top-note {
+        font-size: 0.95rem;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Şifre Kasası Gizlilik Politikası</h1>
+      <p class="top-note">
+        Son güncelleme tarihi: <strong>2 Nisan 2026</strong>
+      </p>
+
+      <section class="card">
+        <h2>1. Genel Yaklaşım</h2>
+        <p>
+          Şifre Kasası, verilerinizi cihazınızda yerel olarak tutmak için tasarlanmış
+          çevrimdışı bir kasa uygulamasıdır. Uygulama hesap sistemi içermez ve bulut
+          senkronizasyonu sunmaz.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>2. Hangi Veriler İşlenir?</h2>
+        <p>Uygulama içinde oluşturduğunuz kasa kayıtları cihazınızda saklanır. Örnek alanlar:</p>
+        <ul>
+          <li>Başlık</li>
+          <li>Kullanıcı adı</li>
+          <li>Parola</li>
+          <li>Not (isteğe bağlı)</li>
+          <li>Etiketler ve gizli kayıt işareti</li>
+        </ul>
+        <p style="margin-top: 10px">
+          Ayrıca uygulama tercihleriniz (ör. biyometrik tercih, otomatik kilit süresi, pano
+          temizleme süresi) cihazda tutulur.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>3. Veri Nerede Saklanır?</h2>
+        <ul>
+          <li>Veriler yalnızca cihazınızda saklanır.</li>
+          <li>Uygulama sunucuya veri göndermez.</li>
+          <li>Bulut yedekleme/senkronizasyon özelliği sunulmaz.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>4. Güvenlik Önlemleri</h2>
+        <ul>
+          <li>Kasa verileri yerelde şifrelenerek saklanır.</li>
+          <li>Uygulama açılışı PIN kilidi ile korunur.</li>
+          <li>Desteklenen cihazlarda biyometrik doğrulama kullanılabilir.</li>
+          <li>
+            Biyometrik verinin kendisi uygulama tarafından saklanmaz; doğrulama cihazın işletim
+            sistemi altyapısı üzerinden yapılır.
+          </li>
+          <li>Android tarafında ekran görüntüsü koruması aktif güvenlik akışının bir parçasıdır.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>5. Pano (Clipboard) Davranışı</h2>
+        <p>
+          Uygulama içinden hassas bir değer kopyaladığınızda, yapılandırılmış süre sonunda pano
+          içeriğini temizlemeye yönelik otomatik bir mekanizma uygulanır.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>6. Ağ, Reklam ve Analitik</h2>
+        <ul>
+          <li>Uygulama internet izni istemez.</li>
+          <li>Reklam SDK’sı içermez.</li>
+          <li>Analitik/izleme SDK’sı içermez.</li>
+          <li>Crash reporting SDK’sı içermez.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>7. Veri Paylaşımı</h2>
+        <p>
+          Uygulama, kişisel verilerinizi geliştiriciye veya üçüncü taraflara aktarmaz. Veri
+          işleme cihaz üzerinde gerçekleşir.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>8. Hesap, Dışa Aktarma ve İçe Aktarma</h2>
+        <ul>
+          <li>Hesap oluşturma/giriş sistemi yoktur.</li>
+          <li>Dışa aktarma (export) ve içe aktarma (import) özelliği sunulmaz.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>9. Verilerin Silinmesi</h2>
+        <p>
+          Kayıtlarınızı uygulama içinden silebilir, uygulamayı kaldırarak cihazdaki uygulama
+          verilerini temizleyebilirsiniz.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>10. Çocukların Gizliliği</h2>
+        <p>
+          Şifre Kasası genel kullanım için tasarlanmıştır. Uygulama içinde veri toplama/aktarım
+          altyapısı bulunmadığından, kişisel veriler sunucu tarafında işlenmez.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>11. Politika Güncellemeleri</h2>
+        <p>
+          Bu politika gerektiğinde güncellenebilir. Güncel sürüm bu sayfada yayımlanır.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>12. İletişim</h2>
+        <p>
+          Gizlilik politikasıyla ilgili sorular için:
+          <a href="mailto:kanbirmuhammet1996@gmail.com">kanbirmuhammet1996@gmail.com</a>
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
